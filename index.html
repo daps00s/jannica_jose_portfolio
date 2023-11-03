@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+
+<!-- ===== BOX ICONS ===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+  
+  </head>
+  <body>
+<!-- ===== desktop nav ===== -->
+    <nav id="desktop-nav">
+      <div class="logo">Jannica Marielle M. Jose</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Personal</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+<!-- ===== mobile nav ===== -->
+    <nav id="hamburger-nav">
+      <div class="logo">Jannica Marielle M. Jose</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#profile" onclick="toggleMenu()">Home</a></li>
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+<!--===home===-->
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="profile-pic.jpg" alt="els profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Jannica Marielle M. Jose</h1>
+        <p class="section__text__p2">BS Information Technology</p>
+        <div class="btn-container">
+
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <a href=""class="exp__icons" ><i class='bx bxl-facebook'></i></a> 
+          <a href=""class="exp__icons" ><i class='bx bxl-instagram'></i></a> 
+          <a href=""class="exp__icons" ><i class='bx bxl-messenger'></i></a> 
+        </div>
+      </div>
+    </section>
+<!--===about===-->
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="about-pic.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>Intermediate <br />Frontend Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Ongoing<br />BS Information Technology</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I'm Jannica Marielle M. Jose, currently taking BSIT (Bachelor of Science in Information Technology). 
+              My interest in online games led me to pursue this program. This course taught me so many things 
+              about the digital world. I've gained valuable knowledge about IT world, computers, and how wide 
+              the technology is. My journey as a BSIT student has been a remarkable and transformative experience.
+               It has provided me with the knowledge, skills, and determination to excel in the IT field.
+               I'm looking forward to the opportunities that lie ahead and I am committed to making a positive
+               impact in the world of Information Technology and be a professional someday.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+<!--===Experience===-->
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Technical Skills</h2>
+            <div class="article-container">
+<!--===html===-->           
+              <article>
+                <a href=""class="exp__icons" ><i class='bx bxl-html5'></i></a> 
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+<!--===css===-->   
+              <article>
+                <a href=""class="exp__icons" ><i class='bx bxl-css3'></i></a> 
+                <div>
+                  <h3>CSS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+<!--===js===-->   
+              <article>
+                <a href=""class="exp__icons" ><i class='bx bxl-javascript'></i></a> 
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Professional Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Project Management</h3>
+                 
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Teamwork</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Networking</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Adaptability</h3>
+                  
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+<!--===Personal===-->
+    <section id="projects">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Personal Interest</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Cat Lover</h2>
+            <div class="btn-container">
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Playing Online Games</h2>
+            <div class="btn-container">
+
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Watching Vlogs and Documentaries</h2>
+            <div class="btn-container">
+
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+<!--===Contact===-->
+    <section id="contact">
+
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:jannics_jose@gmail.com">jannics_jose@gmail.com</a></p>
+        </div>
+
+      </div>
+      <div class="contact__container">
+        <form action="" class="contact__form">
+          <div class="contact__inputs">
+              <input type="text" placeholder="Name" class="contact__input">
+              
+          </div>
+          <div class="contact__inputs">
+            
+            <input type="mail" placeholder="Email" class="contact__input">
+        </div>
+
+          <textarea name="" id=""placeholder="Your Message" cols="0" rows="10" class="contact__input"></textarea>
+
+          <input type="submit" value="Submit" class="contact__button">
+      </form>
+      </div>
+    </section>
+<!--===Footer===-->
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Personal</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Jannica Marielle Jose. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
